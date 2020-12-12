@@ -1,0 +1,7 @@
+(1)
+Where is the file?
+
+(2)
+Old school command line
+
+C:\"Program Files"\CodeBlocks\MinGW\bin\gcc
