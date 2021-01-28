@@ -1,0 +1,161 @@
+# Jan 26th, 2021
+
+============================
+Last time, we have learned:
+============================
+* Autolab: L000 walkthrough (Not counting toward your final scores)
+
+============	
+Today:
+============
+* Address student's frustration
+** How to see feedback
+	--> Autograder feedback
+	--> Instructor/TA feedback (see L000 TK ver 7 Q6)
+** 0. Cannot see the course
+	--> added 4 more students to the course. That should do it.
+** 1. Some have trouble making tar file.
+	--> use 7-zip (See https://classroom.google.com/c/MjQ5ODE3NTM2ODE4/p/MjU5MDcwMjIwMjQw/details)
+	--> still have an issue?
+		--> may try deleting the winrar (if you have one)
+** 2. Some sent it to a wrong assessment.
+	--> take it easy
+	--> L000 due date is extended to 8pm on Sat Jan 30th. 
+** 3. Some used incorrect filenames:
+	--> E.g., Q1.txt.txt. It has to be Q1.txt.
+	--> command line: ren Q1.txt.txt Q1.txt
+** 4. As I addressed, the answer has extra empty lines.
+	--> L000/extraSpace.png
+** 5. The answer has typo.
+	--> L000/typo.png
+** 6. The last program P8 has to take an input from a user.
+	--> show P8
+* Autolab: L001 warm-up (counting for your final scores)
+	* This has been announced.
+	* L001 is also due 8pm on Sat Jan 30th. 
+
+* declaration (revised)
+	int x;
+	int y;
+	vs
+	int x, y;
+* variable initialization
+	int x;
+	x = 0;
+	int x = 0;
+* cin / multiple variables (revised)
+	cin >> x;
+	cin >> y;
+	vs
+	cin >> x >> y;
+* expression (revised)
+	See common operators: https://en.cppreference.com/w/cpp/language/expressions
+	arithmetic operations: +, -, * /, %
+	23 / 10 			vs 	23 % 10			vs 	23/10.0
+	integer division: quotient	vs 	modulo: remainder		vs 	fp division
+
+* Denomination Break Down Problem: break down money into multiple denomination of banknotes and coins 
+
+    // To simplify the problem, we only do it for an amount of multiple of 100
+    // (1) First thing of solving a problem is to understand it.
+    // "Understand it first, solve it later!!!
+
+    // Example: 
+    // 4200 Baht --> 4 x Tho + 0 x Fiv + 2 x One
+    // 700 Baht --> 0 x Tho + 1 x Fiv + 2 x One
+	// * Tho = a number of 1000B bills
+	// * Fiv = a number of 500B bills
+	// * One = a number of 100B bills
+
+    int money;
+    int tho, fiv, one; // # of bills of each denomination.
+    int remainder;
+
+    money = 3800;
+    tho = money / 1000;
+    remainder = money % 1000;
+
+    fiv = remainder / 500;
+    remainder = remainder % 500;
+
+    cout << "Money: " << money << endl;
+    cout << " * 1000-bill: " << tho << endl;
+    cout << " * 500-bill: " << fiv << endl;
+
+    cout << " * remainder: " << remainder << endl;
+	
+	// Time's up!
+
+==============
+Left Over
+==============
+* Denomination Break Down Problem (to finish up)
+
+* Debugging a program
+
+* Float
+	type casting:
+		https://en.cppreference.com/w/cpp/keyword/float
+		https://en.cppreference.com/w/cpp/language/explicit_cast 
+		http://www.cplusplus.com/doc/tutorial/typecasting/
+	y = float(x)/5; 	vs 	y = x/5.0		vs 	y = x/5;		vs 	y = float(x/5)
+
+	#include <iomanip>
+	cout << setprecision(n)
+	cout << fixed
+	cout << scientific
+	
+
+    float x = 3.33333333333;
+
+    cout << "a: x = " << x << endl;
+    cout << "b: x = " << x << setprecision(3) << endl;
+    cout << "c: x = " << x << endl;
+    cout << "d: x = " << setprecision(5) << x << endl;
+    cout << "e: x = " << x << endl;
+    cout << "f: x = " << fixed << x << endl;
+    cout << "g: x = " << scientific << x << endl;
+	
+* Example of working on a large problem
+	Given R baht/unit, how much is my electricity bill for running my P-watt A/C for H hours?
+	Note: 1 unit = 1000 watt hour.
+	* Break it down
+	* Start simple and refine
+		* try specific problem to get sense of it, then generalize 
+
+* Autolab L002: input/output/assignment
+
+* Limitations of int
+* LImitations of float
+
+* Have g++ ready on command line
+
+=============
+CPG Journey
+=============
+* Introduction and computer system <-- Done. Week 1
+* Basic file system, OS, and system commands <-- Done. Week 2 
+* Development Tools <-- Done. Week 3
+* Our First Program <-- Done. Week 4/Jan 12
+* Solid foothold on cout <-- Done. Week 4/Jan 14
+	+ How to use C++ reference <-- Done. Week 4/Jan 14
+* Variables and Assignments <-- Done. Week 5/Jan 19
+* Input/Output <-- Done. Week 5/Jan 19
+	(L000 & Autolab) <-- Done. Week 5/Jan 21
+	+ Expression: + - * int/int % float(/)   <-- Done. Week 6/Jan 26
+	+ Strategy to tackle a large problem
+	+ Debugging
+	+ Float
+* Peek into functions
+	+ Inuition (Turtle)
+	+ Practice
+	+ User-defined library
+* Selections
+	+ bool
+	+ char
+* Iterations
+* Functions
+* Strings
+* Arrays
+* File I/O
+* (Extra, if time allows)

@@ -1,0 +1,88 @@
+# Jan 12th, 2021
+
+Class website: https://sites.google.com/a/kku.ac.th/classes/cpg
+
+Left Over
+1. IDE
+2. Develop C++ program using Code::Blocks
+
+Contents
+* The first program
+	basic structure
+	* preprocessing directive
+		libraries: standard and user-defined libraries
+		https://en.cppreference.com/w/cpp/header
+	* namespace (... strategy to lessen stress on variable naming)
+	* comments: line and block (multi-line) comments
+	* functions: standard functions, user-defined functions, and main function
+		* header: function name and its type signature (output type and input types)
+		* body: statements
+	* main function: the designated start of the program
+		* try search on https://en.cppreference.com
+		* check out https://en.cppreference.com/w/cpp/language/main_function
+	* statement = command telling a computer what to do
+		cout: https://en.cppreference.com/w/cpp/io/cout
+		https://en.cppreference.com/w/cpp/language/lookup
+		<< operator: 
+	* ;
+		* every statement ends with ;
+
+	* return = keyword
+		* check out https://en.cppreference.com/w/cpp/keyword
+		* notice:
+			return 0 vs return 1
+	* { }
+	* C++ is case-sensitive
+	* Try/Play/Make some errors
+
+	* Kahoot: https://create.kahoot.it/kahoots/my-kahoots
+
+	* identifier: a valid identifier must begin with a non-digit character (Latin letter, underscore, or Unicode non-digit character).
+		* An identifier can be used to name objects, references, functions, enumerators, types, class members, namespaces, templates, template specializations, parameter packs, goto labels, and other entities
+
+	* How to use reference
+		* keywords and core functions
+		* standard libraries
+			* functions (and namespaces)
+	
+
+
+* CPP reference
+* cout
+	cout << "I'll do my best!";
+	cout << "I'll" << "do" << "my" << "best" << "!";
+	cout << "I'll " << "do " << "my " << "best" << "!";
+
+    cout << "    ########" << endl;
+    cout << "   # ^   ^  #" << endl;
+    cout << "  #          #" << endl;
+    cout << "  #  \\    /  #   " << endl; // escape sequence: https://en.cppreference.com/w/cpp/language/escape
+    cout << "   #  ----  #  " << endl;
+    cout << "    ######## " << endl;
+
+* basic statements
+	cout << "3 + 4 =" << 7;
+	cout << "3 + 4 =" << 3 + 4;
+* variables and assignments
+	int, float
+	
+* expression: 
+	* an expression is a sequence of operators and their operands, that specifies a computation.
+	* expression vs statement
+		* An expression is a sequence of operators and their operands, that specifies a computation.
+		* Statements are fragments of the C++ program that are executed in sequence. 
+		C++ includes the following types of statements: expression statements; compound statements; 
+		selection statements; iteration statements; jump statements; declaration statements; try blocks; 
+		atomic and synchronized blocks.
+		* An expression followed by a semicolon is an expression statement.
+		* Most statements in a typical C++ program are expression statements, such as assignments or function calls.
+		* An expression statement without an expression is called a null statement.
+	* expression: https://en.cppreference.com/w/cpp/language/expressions
+		See common operators
+			* operator: https://en.cppreference.com/w/cpp/language/operators
+
+Next
+* Autolab
+
+web IDE:  https://ide.judge0.com/
+c++ reference: https://en.cppreference.com/w/

@@ -1,0 +1,178 @@
+# Jan 21st, 2021
+web IDE:  cpp.sh
+c++ reference: 
+	https://en.cppreference.com/w/ (most comprehensive, but also most difficult to read)
+	http://www.cplusplus.com/
+	https://www.cprogramming.com/reference/
+
+============================
+Last time, we have learned:
+============================
+* variables and assignments
+    int x;    	// declaration statement
+    x = 10; 	// assignment: assign value of RHS to LHS.
+* Basic programming strategy:  (1) Know what we want; (2) Break it down to smaller steps; (3) Keep breaking it down till the steps become statements.	
+    // To do calculation, we use expression, e.g., 10 + 5*3
+    // To make calculation flexible, we use variable, e.g., 10 + 5*x
+    // To use variable, we need to declare its type, e.g., int x;
+    // To assign value to variable, we do assignment, e.g., x = 3;
+    // To get an input from a user, we do input, e.g., cin >> x;
+* operator precedence (see https://en.cppreference.com/w/cpp/language/operator_precedence)
+	x = 10 + y / 10 - y;                // y = 0 --> x = 10
+	vs
+	x = (10 + y) / (10 - y);            // y = 0 --> x = 1		
+* cin
+	cin >> x;
+	cin >> y;
+	vs
+	cin >> x >> y;
+* integer operation vs floating-point operation
+	10/4
+	vs
+	10/4.0
+
+============	
+Today:
+============
+* Our current situation
+	From our survey: 15 Windows/1 Mac/1 no clue/1 no com/
+	My recommendation
+	for 15 windows user --> get Code::Blocks installed
+		select codeblocks-20.03mingw-setup.exe
+		see Ajahn Namtarn vdo on how to install Code::Blocks
+		https://www.youtube.com/watch?v=Hw52UtE9hns&feature=youtu.be
+	1 Mac --> as long as you can run "g++" on a command line, you are doing fine. 
+		--> "g++ --version" --> OK
+		--> Mac user is good to go!
+	no PC/laptop --> check out KKU library; you need one.
+	no clue --> send me an email tatpong@kku.ac.th
+	
+	For those of you who cannot do "g++ --version" on terminal yet 
+		--> we will set it up later (in a week or two)
+
+* Autolab: L000 walkthrough (Not counting toward your final scores)
+	* handout: https://classroom.google.com/
+		(Jan 13 announcement)
+	* untar: 
+		windows: 7-zip
+			I use peazip.
+			https://www.7-zip.org/
+		mac: 
+			tar -xvf L000_handout.tar
+	* setting GNU compiler on Code::Blocks
+		"Settings->Compiler...->Global compiler settings
+			select GNU GCC Compiler
+			select tab Toolchain executables > click "Auto-detect"
+	* L000
+	* Q5
+		find feature of the browser
+		windows: <ctrl> + f
+	* P7
+		Copy code from the source
+		windows: <ctrl> + a
+			<ctrl> + c
+		Paste it on the P7.cpp
+		windows: <ctrl> + v
+	to tar file
+		windows: use 7-zip
+		mac: tar -cvf ans.tar *
+	Autolab: https://autolab.en.kku.ac.th/
+		First timer:
+			(1) click "Forgot your password?"
+			(2) follow instructions on the email
+		If you cannot see any class, you may be using a different email that the one I added or I have not added you into the system yet. 
+		Any case, send me your student id and email. I'll work out the issue.
+
+	Once you get it, go for EN001203 and L000.
+	Drag your tar file onto the submission area. Click that code of honor thing and submit.
+
+If you need help of any kind, send me an email.
+	My email: tatpong@kku.ac.th
+	Start the subject with CPG: 
+	Explain your situation and we will try to work it out.
+
+	* compose answers and submit
+	* see feedback
+	* see scoreboard
+
+* Autolab: L001 warm-up (counting for your final scores)
+	This has been announced.
+	(It is due on Sat Jan 30th)
+
+==============
+Left Over
+==============
+
+* declaration (revised)
+	int x;
+	int y;
+	vs
+	int x, y;
+* variable initialization
+	int x;
+	x = 0;
+	int x = 0;
+* cin / multiple variables (revised)
+	cin >> x;
+	cin >> y;
+	vs
+	cin >> x >> y;
+* expression (revised)
+	See common operators: https://en.cppreference.com/w/cpp/language/expressions
+	arithmetic operations: +, -, * /, %
+	23 / 10 			vs 	23 % 10			vs 	23/10.0
+	integer division: quotient	vs 	modulo: remainder		vs 	fp division
+
+* Example: break down money into multiple denomination of banknotes and coins 
+* Debugging a program
+
+* Float
+	type casting:
+		https://en.cppreference.com/w/cpp/keyword/float
+		https://en.cppreference.com/w/cpp/language/explicit_cast 
+		http://www.cplusplus.com/doc/tutorial/typecasting/
+	y = float(x)/5; 	vs 	y = x/5.0		vs 	y = x/5;		vs 	y = float(x/5)
+
+	#include <iomanip>
+	cout << setprecision(n)
+
+* Example of working on a large problem
+	Given R baht/unit, how much is my electricity bill for running my P-watt A/C for H hours?
+	Note: 1 unit = 1000 watt hour.
+	* Break it down
+	* Start simple and refine
+		* try specific problem to get sense of it, then generalize 
+
+* Autolab L002: input/output/assignment
+
+* Have g++ ready on command line
+
+=============
+CPG Journey
+=============
+* Introduction and computer system <-- Done. Week 1
+* Basic file system, OS, and system commands <-- Done. Week 2 
+* Development Tools <-- Done. Week 3
+* Our First Program <-- Done. Week 4/Jan 12
+* Solid foothold on cout <-- Done. Week 4/Jan 14
+	+ How to use C++ reference <-- Done. Week 4/Jan 14
+* Variables and Assignments <-- Done. Week 5/Jan 19
+* Input/Output <-- Done. Week 5/Jan 19
+	(L000 & Autolab) <-- Done. Week 5/Jan 21
+	+ Expression
+	+ Strategy to tackle a large problem
+	+ Debugging
+	+ Float
+* Peek into functions
+	+ Inuition (Turtle)
+	+ Practice
+	+ User-defined library
+* Selections
+	+ bool
+	+ char
+* Iterations
+* Functions
+* Strings
+* Arrays
+* File I/O
+* (Extra, if time allows)

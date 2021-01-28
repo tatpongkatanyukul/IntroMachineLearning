@@ -1,0 +1,251 @@
+System commands
+* cd, dir/w, mkdir
+# Goal 1: Create and navigate directories
+	--> folder GetPrep
+		--> folder cpp (done)
+		--> folder cpp2
+
+
+Terminal, Term, Command	
+						Windows 			MacOS (Unix)
+Goal:					C:\GetPrep 			/home/<user>/GetPrep
+Root:					C:\					/
+Change directory		cd <target>			cd <target>
+Create a directory		mkdir GetPrep 		mkdir GetPrep
+See files in the folder	dir/w        		ls
+Symbol for path level	\					/
+
+Command prompt / terminal is different from GUI
+
+We can run a program using either GUI
+* Double click on the icon. (you know this.)
+We also can run a program using a command line.
+* type the program name
+
+# Goal 2: run a program from a command prompt
+* run program from a command line
+	explorer
+	start chrome
+	notepad
+	codeblocks: "c:\Program Files\CodeBlocks"\codeblocks
+	
+Start file explorer
+Windows user:
+	type
+		explorer
+
+	If you could not get the File Explorer open,
+	it may be because of the path issue.
+Mac user:
+	type
+		????
+	
+For students who could not get File Explorer open,
+it is fine.
+Just look at what I am doing.
+
+Start a text editor
+	Windows: notepad
+	Mac: note
+	
+# Goal 3: Use a text editor and create/edit files
+* Creat covid.txt, hello.txt under cpp
+* Creat hello.txt under cpp2, 
+  make sure that you have a content of cpp2/hello.txt different from cpp/hello.txt
+
+Text Editor --> create/edit a (text) file
+	
+* notepad (text editor) vs codeblocks (IDE)
+
+cd <path>
+Two ways to reference a path
+* absolute path
+* relative path
+
+To see a file inside a folder
+Windows: dir/w
+Mac: ls or ls -alt
+
+To see a content of the file.
+Windows: type <filename>
+	E.g., type covid.txt
+Mac: less <filename>
+	E.g., less covid.txt
+
+Create more files
+We have:
+* cpp/covid.txt
+
+We want:
+* cpp/hello.txt (anything: Hello cpp)--> Done
+* cpp/aloha.txt (anything: Aloha cpp)--> Done
+* cpp2/hello.txt (Hello cpp2)--> Done
+
+2 hello.txt files
+One under cpp
+Another under cpp2
+
+Absolute Path
+windows: 
+	type C:\GetPrep\cpp\aloha.txt
+mac: 
+	/home/<user>/GetPrep/cpp/aloha.txt
+
+Relative path
+(We are at cpp2)
+Windows:
+	type ..\cpp\aloha.txt
+Mac:
+	less ../cpp/aloha.txt
+	
+Now, we are at cpp2
+How to see a content of hello.txt on cpp?
+
+Absolute path
+* Start everything from the root
+
+windows:
+	type C:\GetPrep\cpp\hello.txt
+mac:
+	less /home/<user>/GetPrep/cpp/hello.txt
+
+
+Root
+windows: C:\
+mas: /
+
+Relative path
+* start from where we are
+
+To see where we are at
+Windows: see the prompt
+Mac: use pwd
+
+Windows:
+	type ..\cpp\hello.txt
+	
+Mac:
+	less ../cpp/hello.txt
+	
+
+<BREAK> 5 min break
+
+Question:
+	If I name a file with a space, how can it do?
+
+Answer:
+	To make life easy,
+	(1) name our file with english only and (2) no space.
+	Anyhow, we can do:
+		type "test 2.txt"
+		Put the filename inside the double-quotes.
+
+Write our first program
+* text file (but for c++, we need to name it with extension .cpp)
+
+# sharp/pound sign/hash tag
+: colon
+; semi-colon
+" double-quote
+' single-quote
+() brackers (or round brackets)
+{} curly brackets
+[] square brackers
+
+I will show 3 ways to compile an run our first C++ program.
+1. (Primitive way/ Old style / Caveman way)
+2. Modern way to develop a program (IDE)
+3. Online https://ide.judge0.com/
+
+Caveman style:
+* notepad --> write a C++ (source) file
+* command line --> compile a source program to an executable program
+
+You might not be able to follow what I am doing
+on the command line (yet), because (1) the compiler may not be installed
+and (2) the "PATH" has to be worked out.
+
+On notepad, write
+
+#include <iostream>
+int main(){
+std::cout << "Hello, Covid";
+}
+
+Save the file, hello.cpp.
+Now, we have hello.cpp
+hello.cpp (our program source) --> text file
+
+To make it a real (runable) program
+* compile it to a machine code
+I'll show you. But, you may be able to replicate
+what I am doing now. That is OK.
+Once we get to our lab, I can set you up for it.
+(You can do it, but it's a little long. And, this is small potential risk of messing up your computer.)
+
+To compile, cpp source file to an executable program
+
+g++ hello.cpp -o hello.exe
+
+g++ is to call a GNU C++ compiler --- program to compile a source file
+(text file of C++ program) into a runable program.
+
+Once it is done, we will get hello.exe.
+Then, we can run a program by:
+
+hello.exe
+
+A caveman way is shown!!!
+
+hello.exe is a program. It is a machine code. 
+(To see its content, powershell's Format-Hex. But, it won't be meaningful for us. It is for machine though.) 
+
+Next time, have your CodeBlocks installed
+And, we will go together writing, compiling and running our first program.
+
+Lastly, the lightest way to do it, we can do it online: https://ide.judge0.com/
+
+
+Reference
+* How to install Code::Blocks
+** https://www.youtube.com/watch?v=Hw52UtE9hns&feature=youtu.be
+(It's on the Google classroom)
+* CPP Reference
+** https://en.cppreference.com/w/
+
+Issues to work out:
+1. MacOS: cannnot creat /GetPrep
+	Try to create a folder under /home/user instead
+2. MacOS path command
+	Try
+		pwd
+3. Add path, so that notepad can be called from a command line
+	In short, notepad.exe is at C:\Windows\System32.
+	it is either
+	(1) add to C:\Windows\System32 to Windows path
+	or (2) call it
+		C:\Windows\System32\notepad	
+4. System path to allow g++ on command line --> later in lab
+
+Left Over
+1. IDE
+2. Develop C++ program using Code::Blocks
+
+Mac:
+1. You may not be allowed to create /GetPrep
+	Then, create /home/you/GetPrep instead.
+	(you = your name)
+	
+2. Create a directory
+	mkdir <folder name>
+3. See what inside the directory
+	ls
+4. Change directory also using cd command
+	cd <target>
+5. path uses /
+	E.g., /home/you/GetPrep/cpp
+6. root path is /
+
+	
+
+ 

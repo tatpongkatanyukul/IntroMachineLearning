@@ -1,0 +1,153 @@
+# Jan 19th, 2021
+web IDE:  cpp.sh
+c++ reference: 
+	https://en.cppreference.com/w/ (most comprehensive, but also most difficult to read)
+	http://www.cplusplus.com/
+	https://www.cprogramming.com/reference/
+
+============================
+Last time, we have learned:
+============================
+* How to look for keywords and standard libraries along with their functions.
+	* c++ reference: 
+		https://en.cppreference.com/w/
+* Strategy to learn programming (or actually any skills)
+	* Play / Try / Make mistakes / Experiment
+* A solid ground on cout
+	* esp., string vs expression
+		"5 + 4" vs 5 + 4
+* related question
+	How can we get the input?
+
+============	
+Today:
+============
+
+* variables and assignments
+
+    // Computer takes different types of data differently.
+    // For a number, they have to know what they can do with a number.
+    // First type of numbers, we do "integer".
+
+    int x; // declaration statement
+    x = 10;
+    // assignment: assign value of RHS to LHS.
+
+	x = 10; // Good
+	vs
+	10 = x; // Bad
+	
+	// operator * is for
+	// multiplication.
+	// * locates over the 8 button on your keyboard.
+
+// Why do students struggle with learning how to program (from my opinion)?
+// (1) They don't have the reference (where to look for "tools", e.g., cin, int)
+// (2) They don't have a strategy to break down a problem into smaller pieces
+
+// Programming strategy
+// (1) Know what we want
+// (2) Break it down to smaller steps
+// (3) Keep breaking it down until the steps become statements.
+
+	* int
+		https://en.cppreference.com/w/cpp/language/types
+	* declaration
+		<type> <identifier>
+		
+		int x;
+		int bill;
+		
+		int x, bill;
+		
+	* assignment
+		<identifier> = <value>
+		<identifier> = <identifier>
+		
+		x = 200;
+		y = x;
+		
+    // To do calculation, we use expression, e.g., 10 + 5*3
+    // To make calculation flexible, we use variable, e.g., 10 + 5*x
+    // To use variable, we need to declare its type, e.g., int x;
+    // To assign value to variable, we do assignment, e.g., x = 3;
+    // To get an input from a user, we do input, e.g., cin >> x;
+		
+	* expression	
+		operators: http://www.cplusplus.com/doc/tutorial/operators/
+		https://en.cppreference.com/w/cpp/language/expressions
+	* operator precedence
+		https://en.cppreference.com/w/cpp/language/operator_precedence
+		
+		x = 10 + y / 10 - y;                // y = 0 --> x = 10
+		vs
+		x = (10 + y) / (10 - y);            // y = 0 --> x = 1
+		
+		
+* cin
+	cin >> <variable>;
+	
+	cin >> x;
+	cin >> y;
+	
+	vs
+	
+	cin >> x >> y;
+
+* integer operation vs floating-point operation
+	10/4
+	vs
+	10/4.0
+
+==============
+Left Over
+==============
+
+* debugging/single step
+
+* Autolab: L000 walkthrough
+	* handout: https://classroom.google.com/
+		(Jan 13 announcement)
+* Autolab: L001 warm-up
+
+
+* float
+	type casting:
+		https://en.cppreference.com/w/cpp/keyword/float
+		https://en.cppreference.com/w/cpp/language/explicit_cast 
+		http://www.cplusplus.com/doc/tutorial/typecasting/
+	y = float(x)/5; 	vs 	y = x/5;
+
+	#include <iomanip>
+	cout << setprecision(n)
+
+* expression
+	See common operators: https://en.cppreference.com/w/cpp/language/expressions
+	arithmetic operations
+
+* Familiarize with assignments and basic expressions
+
+* Autolab L002: input/output/assignment
+
+* Have g++ ready on command line
+
+=============
+CPG Journey
+=============
+* Introduction and computer system <-- Done. Week 1
+* Basic file system, OS, and system commands <-- Done. Week 2 
+* Development Tools <-- Done. Week 3
+* Our First Program <-- Done. Week 4/Jan 12
+* Solid foothold on cout <-- Done. Week 4/Jan 14
+* Variables and Assignments <-- Done. Week 5/Jan 19
+* Input/Output <-- Done. Week 5/Jan 19
+	+ Debugging
+* Peek into functions 
+* Selections
+* Iterations
+* Functions
+* Strings
+* Arrays
+* File I/O
+* (Extra, if time allows)
+

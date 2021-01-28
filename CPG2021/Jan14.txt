@@ -1,0 +1,204 @@
+# Jan 14th, 2021
+web IDE:  https://ide.judge0.com/
+c++ reference: https://en.cppreference.com/w/
+
+============================
+Last time, we have learned:
+============================
+* Web IDE and Code::Blocks
+* Write our first C++ program
+* C++ Basic structure: preprocessing directive, namespace, the main function, and statements.
+
+============	
+Today:
+============
+
+* Kahoot! First Program
+
+* Using cppreference.com
+	* search
+	* keywords
+	* headers
+	* functions/classes/objects (and namespace if there is) in a library
+		* iostream, cstring, cmath
+		* namespace (cppreference.com)
+	* Objectives
+		1. know where to get info for something seen in the code
+		2. know where to see what on the shelf, ready to use
+		
+* Try/Play/Make some errors
+	* ;
+	* {}
+	* case sensitive
+
+	* cout << expression
+	operator <<: pipeline string to the string output
+		cout << "I'll do my best!";
+		cout << "I'll" << "do" << "my" << "best" << "!";
+		cout << "I'll " << "do " << "my " << "best" << "!";
+
+		cout << "    ########" << endl;
+		cout << "   # ^   ^  #" << endl;
+		cout << "  #          #" << endl;
+		cout << "  #  \\    /  #   " << endl; // escape sequence: https://en.cppreference.com/w/cpp/language/escape
+		cout << "   #  ----  #  " << endl;
+		cout << "    ######## " << endl;
+
+	* basic statements
+		cout << "3 + 4 =" << 7;
+		cout << "3 + 4 =" << 3 + 4;
+	
+* Kahoot! cout
+
+==============
+Left Over
+==============
+
+* Autolab: practice
+
+* variables and assignments
+	int, float
+	* declaration
+	* assignment
+* cin
+
+* expression
+	See common operators: https://en.cppreference.com/w/cpp/language/operators
+	arithmetic operations
+
+* Familiarize with assignments and basic expressions
+
+* Autolab HW 1: input/output/assignment
+
+=============
+CPG Journey
+=============
+* Introduction and computer system <-- Done. Week 1
+* Basic file system, OS, and system commands <-- Done. Week 2 
+* Development Tools <-- Done. Week 3
+* Our First Program <-- Done. Week 4/Jan 12
+
+* Variables and Assignments
+* Peek into functions 
+* Selections
+* Iterations
+* Functions
+* Strings
+* Arrays
+* File I/O
+* (Extra, if time allows)
+
+==================================
+Tentative Plan (Instructor Only)
+==================================
+# Week 5: Jan 19th, 2021
+* ! overflow
+	* representation limitation
+
+* Peek into functions
+	* standard cmath
+	* caveman's turtle / user-defined simple function
+
+# Week 5: Jan 21st, 2021
+
+* boolean (intro slide)
+* character (intro slide)
+* Familiarize with characters
+* const (intro slide) 
+* peek into string 
+	just string assignment
+* type casting (intro slide)
+
+* selections
+
+* Autolab HW: assignments/basic functions
+
+# Week 6: Jan 26th, 2021
+* if
+* boolean operators: &&, ||, !
+* familiarize with if statements
+
+# Week 6: Jan 28th, 2021
+* if else
+* flowchart
+* familiarize with if-else statements
+	* if vs if-else
+* Autolab HW: if/if-else
+
+# Week 7: Feb 2nd, 2021
+* nested selections
+* familiarize with nested selections
+* switch
+* familiarize with switch
+
+# Week 7: Feb 4th, 2021
+* Iterations
+* for loop
+* flowchart
+* familiarize with for loop
+* Autolab HW: if/if-else/switch/for
+
+# Week 8: Feb 9th
+* while loop
+* do while loop
+* break/continue
+* COMMENT AGAINST GOTO
+* familiarize with while-loop
+* Autolab HW: for/while/do-while
+
+# Week 8: Feb 11th
+* functions
+	* standard libraries: cmath, cstdlib
+		* random/seed
+* user-defined functions
+	* declaration/definition
+* local variables
+* pass by value
+* Autolab Mocking Test
+==================================
+KKU MTE Feb 15-19
+==================================
+
+# Week 9: Feb 23
+* user-defined function
+* pass by reference
+
+# Week 9: Feb 25
+* Strings
+* Autolab: pass by reference/strings
+
+# Week 10: Mar 2
+* Arrays
+* familiarize with arrays
+
+# Week 10: Mar 4
+* ?linear search
+* ?sort array
+* Autolab: array
+
+# Week 11: Mar 9
+* 2D array 
+* familiarize with 2D
+
+# Week 11: Mar 11
+* 3D array
+* Autolab: array
+
+# Week 12: Mar 16
+* File I/O
+
+# Week 12: Mar 18
+
+# Week 13: Mar 23
+# Week 13: Mar 25
+
+# Week 14: Mar 30
+# Week 14: Apr 1
+
+# Week 15: Apr 6
+# Week 15: Apr 8
+
+# Week 16: Apr 13
+# Week 16: Apr 15 (last class)
+
+
