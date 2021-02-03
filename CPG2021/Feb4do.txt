@@ -1,10 +1,5 @@
 ﻿# Feb 4th, 2021
 
-idle vdo:
-https://www.youtube.com/watch?v=6XXCiHJOULQ
-
-google classroom code: mwfqaby
-
 TA:
 	Group: ComProgramming2021-ENKKU
 		Specify "Section 5" when ask a question!
@@ -16,13 +11,14 @@ TA:
 Last time, we have learned:
 ============================
 
-* Submission to Autolab (revisited) / L002
-* Have g++ ready on command line
-
+** Submission to Autolab (revisited) / L002
+** Have g++ ready on command line (how to add path to system variables)
+	
+	
+	
 ============	
 Today:
 ============
-
 * Selections
 	+ if
 	+ bool
@@ -31,17 +27,26 @@ Today:
 	+ if-else
 	++ nested if-else
 	++ switch (CANCELED per talk with Aj Namtarn)
+// Possible Examples
+	+ PM2.5 (ug/m3) = 0-12: good, 35.4: moderate, 55.4: unhealthy for sensitive group, 
+			150.4 unhealthy, 250.4: very unhealthy, >250.4: hazardous
+	* div by zero
+	* arctan
+	* package delivery
 
-====================================
-If there is a pocket of time
-====================================
+============	
+Spare time
+============	
+* Paying for having an A/C on problem. (see L002)
+* * Break it down
+* * Start simple and refine
+* * try specific problem to get sense of it, then generalize 
+* Break down denomination of banknotes (see L003)
 
-** Paying for having an A/C on problem.
- Given R baht/unit, how much is my electricity bill for running my (b BTU/hour) P-watt A/C for H hours?
- Note: 1 unit = 1000 watt hour.
- * Break it down
- * Start simple and refine
- * try specific problem to get sense of it, then generalize 
+==============
+Left Over
+==============
+
 
 ** Limitations of int
  [-2147483648, 2147483647]
@@ -56,21 +61,17 @@ If there is a pocket of time
     cout << "size of " << sizeof(x) << endl;
     cout << "size of " << sizeof(int) << endl;
 
-==============
-Left Over
-==============
 
 * Iterations
 	+ while / do-while
 	+ for
 	
 * Functions
-	+ intuition
 	+ header file / library
 	+ passed by reference
 	
-* Arrays
 * Strings
+* Arrays
 * File I/O
 
 =============
