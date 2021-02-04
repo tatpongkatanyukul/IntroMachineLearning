@@ -25,7 +25,9 @@ Today:
 	+ if
 	+ flowchart
 	+ bool
-
+	+ examples
+	++ division by zero 
+	++ PM2.5
 ============	
 Spare time
 ============	
