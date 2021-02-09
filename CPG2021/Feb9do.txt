@@ -25,14 +25,18 @@ Last time, we have learned:
 ============	
 Today:
 ============
-* Confirm the MTE on Feb 19th
+* Confirm the MTE in the afternoon of Feb 19th
+* Mocking Exam (another HW) in the mornign of Feb 11th
+
+
+
 * Announce the Mocking Exam (~ in-class assignment) Feb 11th (Thu), 2021: 9a-10:30a.
 
 * Selections
 	+ if
 	+ if-else
 	+ flowchart
-	(+ If time allows, debugging if-else)
+	+ logical operators: &&, ||, !
 
 ============	
 Spare time
@@ -104,16 +108,16 @@ CPG Journey
 * Selections
 	+ if <-- Done. Week 7/Feb 4
 	+ bool <-- Done. Week 7/Feb 4
-	+ if-else
+	+ if-else <-- Done. Week 8/Feb 9
 	+ char
 
 	+ Strategy to tackle a large problem
-* Peek into functions
+
+* Iterations
+* Functions
 	+ Inuition (Turtle)
 	+ Practice
 	+ User-defined library
-* Iterations
-* Functions
 * Strings
 * Arrays
 * File I/O
