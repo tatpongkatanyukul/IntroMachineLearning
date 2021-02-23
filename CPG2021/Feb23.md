@@ -11,7 +11,6 @@ TA:
 	(Please do only one channel at a time.)
 
 
-============================
 
 Last time, we have learned:
 ============================
@@ -23,7 +22,6 @@ Last time, we have learned:
 	+ flowchart
 	+ logical operators: &&, ||, !
 	
-============	
 
 Today:
 ============
@@ -31,7 +29,6 @@ Today:
 * ```if (x == 0)``` vs ```if (x = 0)```
 * ```if (70 < x < 80)``` vs ```if (70 < x && x < 80)```
 
-==============
 
 Left Over
 ==============
@@ -62,7 +59,6 @@ Left Over
 * Arrays
 * File I/O
 
-=============
 
 CPG Journey
 =============
@@ -97,7 +93,6 @@ CPG Journey
 * File I/O
 * (Extra, if time allows)
 
-==================================
 
 Tentative Plan (Instructor Only)
 ==================================
@@ -152,7 +147,6 @@ Tentative Plan (Instructor Only)
 
 * Autolab Mockup MTE
 
-==================================
 
 KKU MTE Feb 15-19
 ==================================
