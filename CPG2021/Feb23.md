@@ -12,6 +12,7 @@ TA:
 
 
 ============================
+
 Last time, we have learned:
 ============================
 
@@ -23,6 +24,7 @@ Last time, we have learned:
 	+ logical operators: &&, ||, !
 	
 ============	
+
 Today:
 ============
 
@@ -30,6 +32,7 @@ Today:
 * ```if (70 < x < 80)``` vs ```if (70 < x && x < 80)```
 
 ==============
+
 Left Over
 ==============
 
@@ -60,6 +63,7 @@ Left Over
 * File I/O
 
 =============
+
 CPG Journey
 =============
 
@@ -94,6 +98,7 @@ CPG Journey
 * (Extra, if time allows)
 
 ==================================
+
 Tentative Plan (Instructor Only)
 ==================================
 
@@ -148,6 +153,7 @@ Tentative Plan (Instructor Only)
 * Autolab Mockup MTE
 
 ==================================
+
 KKU MTE Feb 15-19
 ==================================
 
@@ -156,10 +162,8 @@ KKU MTE Feb 15-19
 
 * nested selections
 * familiarize with nested selections
-* switch
-* familiarize with switch
-
-
+* switch/CANCELED
+* familiarize with switch/CANCELED
 
 * character (intro slide)
 * Familiarize with characters
