@@ -79,12 +79,9 @@ CPG Journey
 	+ if <-- Done. Week 7/Feb 4
 	+ bool <-- Done. Week 7/Feb 4
 	+ if-else <-- Done. Week 8/Feb 9
-	+ ```if x == 0``` vs ```if x = 0```
-	+ ```if (70 < x < 80)``` vs ```if( (70 < x) && (x < 80) )```
+	+ ```if x == 0``` vs ```if x = 0``` <-- Done. Week 9/Feb 23
+	+ ```if (70 < x < 80)``` vs ```if( (70 < x) && (x < 80) )``` <-- Done. Week 9/Feb 23
 	+ char
-
-	+ Strategy to tackle a large problem
-
 * Iterations
 * Functions
 	+ Inuition (Turtle)
