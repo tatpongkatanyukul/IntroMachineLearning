@@ -10,9 +10,12 @@ TA:
 	email: chakkawat_so@kkumail.com, jaruwak@kkumail.com
 	(Please do only one channel at a time.)
 
+
 ============================
 Last time, we have learned:
 ============================
+
+
 * Selections
 	+ if
 	+ if-else
@@ -93,6 +96,7 @@ CPG Journey
 ==================================
 Tentative Plan (Instructor Only)
 ==================================
+
 # Week 5: Jan 19th, 2021
 # Week 5: Jan 21st, 2021
 
