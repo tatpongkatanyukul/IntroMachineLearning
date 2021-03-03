@@ -25,20 +25,21 @@ Last time, we have learned:
 * Limitations of float
         (-3.4e+038, -1.4013e-045), 0, (1.4013e-045, 3.4e+038)
 
+```
     int x;
     cout << "x = " << x << endl;
     cout << "size of " << sizeof(x) << endl;
     cout << "size of " << sizeof(int) << endl;
+```
 
-* while(...) { ... }
-* do{ ... } while(...)
-* for
+* ```while(...) { ... }```
+* ```do{ ... } while(...)```
+* ```for(...) { ... }```
 
 Today:
 ============
 
 * Characters and strings
-
 
 
 Left Over
