@@ -98,17 +98,18 @@ CPG Journey
 	+ if <-- Done. Week 7/Feb 4
 	+ bool <-- Done. Week 7/Feb 4
 	+ if-else <-- Done. Week 8/Feb 9
-	+ char
-
-	+ Strategy to tackle a large problem
-
+	+ ```x = 0.333``` and ```x == 0.333``` <-- Done. Week 10/Mar 2
+	+ integer representative ranges <-- Done. Week 10/Mar 2
 * Iterations
+	+ do while <-- Done. Week 10/Mar 2
+	+ while <-- Done. Week 10/Mar 2
+	+ for  <-- Done. Week 10/Mar 2
+* Characters and Strings
+* Arrays
 * Functions
 	+ Inuition (Turtle)
 	+ Practice
 	+ User-defined library
-* Strings
-* Arrays
 * File I/O
 * (Extra, if time allows)
 
