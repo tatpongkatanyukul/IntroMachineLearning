@@ -1,4 +1,4 @@
-# Mar 2nd, 2021
+# Mar 9th, 2021
 
 Tuesday: lecture session
 Thursday: hand-on session
@@ -15,47 +15,14 @@ TA:
 Last time, we have learned:
 ============================
 
-* ```if (x == 0)``` vs ```if (x = 0)```
-* ```if (70 < x < 80)``` vs ```if (70 < x && x < 80)```
+* floating-point number comparison. Do not do equality comparison on float. Use tolerance instead.
 
-Today:
-============
-
-* floating-point number comparison
-
-```
-#include <iostream>
-
-using namespace std;
-
-int main(){
-	float x;
-	
-	x = 0.333;
-	cout << "x = 0.333; x == 0.333 v: " << (x == 0.333) << endl;
-	cout << "0.333 == 0.333 v: " << (0.333 == 0.333) << endl;
-	
-	cout << "0.333 - 0.333 = " << 0.333 - 0.333 << endl;
-	cout << "x = 0.333; x - 0.333 = " << (x - 0.333) << endl;
-	
-	/*
-	do{
-		cout << "x : ";
-		cin >> x;
-	}while (x != 0.333);
-	*/
-	return 0;
-}
-```
-
-* Do not do equality comparison on float. Use tolerance instead.
-
-** Limitations of int
+* Limitations of int
  [-2147483648, 2147483647]
 
         https://en.cppreference.com/w/cpp/language/types
 
-** Limitations of float
+* Limitations of float
         (-3.4e+038, -1.4013e-045), 0, (1.4013e-045, 3.4e+038)
 
     int x;
@@ -63,15 +30,20 @@ int main(){
     cout << "size of " << sizeof(x) << endl;
     cout << "size of " << sizeof(int) << endl;
 
-
 * while(...) { ... }
 * do{ ... } while(...)
 * for
 
+Today:
+============
+
+* Characters and strings
+
+
+
 Left Over
 ==============
 
-* Week 11 (Mar 9): Characters and strings
 * Week 12 (Mar 16): Arrays
 * Week 13 (Mar 23): Functions
 	(+ header file / library)/canceled
