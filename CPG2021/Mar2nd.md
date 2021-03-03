@@ -48,13 +48,7 @@ int main(){
 }
 ```
 
-* while(...) { ... }
-* do{ ... } while(...)
-
-
-
-Left Over
-==============
+* Do not do equality comparison on float. Use tolerance instead.
 
 ** Limitations of int
  [-2147483648, 2147483647]
@@ -70,17 +64,19 @@ Left Over
     cout << "size of " << sizeof(int) << endl;
 
 
-* Iterations
-	+ while / do-while
-	+ for
-	
-* Functions
-	+ header file / library
+* while(...) { ... }
+* do{ ... } while(...)
+* for
+
+Left Over
+==============
+
+* Week 11 (Mar 9): Characters and strings
+* Week 12 (Mar 16): Arrays
+* Week 13 (Mar 23): Functions
+	(+ header file / library)/canceled
 	+ passed by reference
-	
-* Strings
-* Arrays
-* File I/O
+* Week 14 (Mar 30): File I/O
 
 
 CPG Journey
