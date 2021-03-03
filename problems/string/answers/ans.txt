@@ -1,0 +1,21 @@
+Px; Points; Student; Run; Grader; Test Case in ans, in ans, in ans 
+P1; 10; P1.py; P1_aux.py; grading_policy2.py; dummy.in P1.ans
+P2; 10; P2.py; P2_aux.py; grading_policy2.py; dummy.in P2.ans
+P3; 10; P3.py; P3_aux.py; grading_policy2.py; dummy.in P3.ans
+P4; 10; P4.py; P4_aux.py; grading_policy2.py; dummy.in P4.ans
+P5; 10; P5.py; P5_aux.py; grading_policy2.py; dummy.in P5.ans
+P6; 10; P6.py; P6_aux.py; grading_policy2.py; dummy.in P6.ans
+P7; 10; P7.py; P7_aux.py; grading_policy2.py; dummy.in P7.ans
+P8; 10; P8.py; P8_aux.py; grading_policy2.py; dummy.in P8.ans
+P9; 10; P9.py; P9_aux.py; grading_policy2.py; dummy.in P9.ans
+P10; 10; P10.py; P10_aux.py; grading_policy2.py; dummy.in P10.ans
+P11; 10; P11.py; P11_aux.py; grading_policy2.py; dummy.in P11.ans
+#P12; 10; P12.py; P12.py; grading_policy2.py; P12c1.in P12c1.ans, P12c2.in P12c2.ans
+#P13; 10; P13.py; P13.py; grading_policy2.py; P13.in P13.ans
+#P14; 10; P14.py; P14.py; grading_policy2.py; P14.in P14.ans
+#P15; 10; P15.py; P15.py; grading_policy2.py; P15.in P15.ans
+#P16; 10; P16.py; P16.py; grading_policy2.py; P16.in P16.ans
+#P17; 10; P17.py; P17.py; grading_policy2.py; P17.in P17.ans
+#P18; 10; P18.py; P18.py; grading_policy2.py; P18c1.in P18c1.ans, P18c2.in P18c2.ans
+#P19; 10; P19.py; P19.py; grading_policy2.py; P19.in P19.ans
+#P20; 10; P20.py; P20.py; grading_policy2.py; P20c1.in P20c1.ans, P20c2.in P20c2.ans
