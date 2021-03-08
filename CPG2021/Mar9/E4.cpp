@@ -15,6 +15,7 @@ int main(){
 	cout << s[3] << endl;
 	s[3] -= 32;
 	cout << s << endl;
+	cout << s.substr(2, 2) << endl;
 	
 return 0;	
 }
