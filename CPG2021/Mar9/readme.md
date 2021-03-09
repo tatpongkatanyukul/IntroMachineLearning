@@ -7,6 +7,6 @@
   * upper case/lower case 
 
 # string
-  * [] operator
+  * ```[]``` operator
   * length (left-over)
   * comparison (left-over)
