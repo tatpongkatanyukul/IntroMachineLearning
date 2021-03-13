@@ -19,5 +19,6 @@ Check'em out
   * [Resources](https://web.stanford.edu/class/cs107/resources/)
   * [Lab](http://cs107e.github.io/guides/)
   * [Read/Write SD Card](http://cs107e.github.io/guides/extras/sd_library/)
+  * [Low-level sd controller](https://github.com/jncronin/rpi-boot)
 
 
