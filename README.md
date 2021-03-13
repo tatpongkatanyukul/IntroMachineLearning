@@ -17,5 +17,6 @@ Tools
   
 Check'em out  
   * [resources](https://web.stanford.edu/class/cs107/resources/)
+  * [Lab](http://cs107e.github.io/guides/)
 
 
