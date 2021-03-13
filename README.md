@@ -14,5 +14,8 @@ Tools
   * [GDB and Debugging](https://web.stanford.edu/class/cs107/resources/gdb)
   * [Valgrind Memcheck](https://web.stanford.edu/class/cs107/resources/valgrind) (finds memory leaks and memory errors)
   * [Valgrind Callgrind](https://web.stanford.edu/class/cs107/resources/callgrind) (CPU/cache profiling)
+  
+Check'em out  
+  * [resources](https://web.stanford.edu/class/cs107/resources/)
 
 
