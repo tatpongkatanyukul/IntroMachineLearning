@@ -24,7 +24,7 @@ int main(){
 Array
 ---
 
-String is kinda array of char.
+String is kinda an array of char.
 
 ## 1D array
 
