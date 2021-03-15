@@ -1,0 +1,12 @@
+(1) money = 8643
+(2) money = 8643, leftover = 8643
+(3) money = 8643, leftover = 8643, B1000 = 8
+(4) money = 8643, leftover = 643, B1000 = 8
+(5) leftover = 643, B1000 = 8, B500 = 1
+(6) leftover = 143, B1000 = 8, B500 = 1
+(7) leftover = 143, B500 = 1, B100 = 1
+(8) leftover = 43, B500 = 1, B100 = 1
+(9) leftover = 43, B100 = 1, B50 = 0
+(10) leftover = 43, B100 = 1, B50 = 0
+(11) leftover = 43, B50 = 0, B10 = 4
+(12) leftover = 43, B10 = 4, B1 = 3
