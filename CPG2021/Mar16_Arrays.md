@@ -91,6 +91,42 @@ array of string
 
 ## 2D array
 
+```c++
+#include <iostream>
+
+using namespace std;
+
+void print_matrix(float a[2][2]){
+
+	cout << "Matrix:" << endl;
+	for(int i=0; i<2; i++){
+		for(int j=0; j<2; j++){
+			cout << a[i][j] << " ";
+		}
+		cout << endl;
+	}
+
+}
+
+int main(){
+	
+	float A[2][2], B[2][2];
+
+	cout << "A:" << endl;
+	for(int i=0; i<2; i++){
+		for(int j=0; j<2; j++){
+			cin >> A[i][j];
+		}
+	}
+	
+	print_matrix(A);
+	
+	print_matrix(B);
+	
+			
+	return 0;
+}
+```
 
 ## 3D array (rank-3 tensor)
 
