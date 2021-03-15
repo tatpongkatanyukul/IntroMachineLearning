@@ -72,6 +72,23 @@ String is kinda an array of char.
 	}
 ```
 
+array of string
+```c++
+	string s[3];
+
+	cout << "Three most important things: ";
+	getline(cin, s[0]);
+	cout << "2:";
+	getline(cin, s[1]);
+	cout << "3:";
+	getline(cin, s[2]);
+	
+	cout << "Your things:" << endl;
+	for(int i=0;i < 3; i++){
+		cout << s[i] << endl;
+	}
+```
+
 ## 2D array
 
 
