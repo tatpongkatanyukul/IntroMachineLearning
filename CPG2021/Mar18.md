@@ -37,3 +37,4 @@ return 0;
 }
 ```
 
+[Practice: B000](https://autolab.en.kku.ac.th/courses/001203-s20/assessments/b000)
