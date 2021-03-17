@@ -78,8 +78,10 @@ Passing a value to function
  * pass by value
  * pass by reference
 
-```<type> <function name>(<type> &x){ x = ... }```
-```<type> <function name>(<type> *x){ *x = ... }```
+  * ```<type> <function name>(<type> &x){ x = ... }```
+  * ```<type> <function name>(<type> *x){ *x = ... }```
+  * ```<type> <function name>(<type> x[]){ x[i] = ... }``` // for 1D array
+  * ```<type> <function name>(<type> x[][3]){ x[i][j] = ... }``` // for 2D array
 
 ---
 Swopping values
