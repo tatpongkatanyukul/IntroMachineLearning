@@ -38,3 +38,24 @@ int main(){
 	return 0;
 }
 ```
+
+Example 2 (Read and process contents from a file)
+```C++
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main(){
+	
+	ifstream fin("num.dat");
+	int v;
+	int s = 0;
+	while( fin >> v ){
+		s += v;
+	}
+	
+	cout << "Total is " << s << endl;
+	return 0;
+}
+```
