@@ -76,7 +76,7 @@ int main(){
 	int v;
 	
 	while(fin >> v){
-		if(v % 2){
+		if(v % 2 == 1){
 			fout_odd << v << endl;
 		}else{
 			fout_even << v << endl;
