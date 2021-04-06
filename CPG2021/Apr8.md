@@ -59,3 +59,34 @@ int main(){
 	return 0;
 }
 ```
+
+Example 3 (Read and write files)
+```C++
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main(){
+	
+	ifstream fin("num.dat");
+	ofstream fout_odd("odd.dat");
+	ofstream fout_even("even.dat");
+	
+	int v;
+	
+	while(fin >> v){
+		if(v % 2){
+			fout_odd << v << endl;
+		}else{
+			fout_even << v << endl;
+		}
+	}
+	
+	cout << "Done!" << endl;
+
+
+
+	return 0;
+}
+```
