@@ -7,6 +7,12 @@ using namespace std;
 
 int main(){
 
+	int v;
+	while(cin >> v){
+		cout << "Value: " << v << endl;
+	}
+	
+	cout << "Final v=" << v << endl;
   return 0;
 }
 
