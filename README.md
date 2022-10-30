@@ -33,7 +33,7 @@ Course description
 * Part III
   * Week 8: Dimension reduction
   * Week 9: PCA and Eigenface
-  * Week 10: Clustering
+  * Week 10: Clustering and K-means
   * Week 11: Collaborative filtering
 * Part IV
   * Week 12: Generative model I
