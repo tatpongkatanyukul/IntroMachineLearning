@@ -24,7 +24,7 @@ Course description
   * Week 3: Supervised learning
     * Intro to supervised learning
     * Generalization
-* **Exam** 
+* **MTE** 
 * Part II  
   * Week 4: Classification
   * Week 5: Practical issues
@@ -40,3 +40,4 @@ Course description
   * Week 13: Generative model II
   * Week 14: Reinforcement learning I
   * Week 15: Warp up
+* **FE**
