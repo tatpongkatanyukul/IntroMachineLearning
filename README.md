@@ -18,26 +18,32 @@ Course description
     * Overview and big picture
     * IML in context, relation to AI
     * Programming revision
+      * Check out [coding exercises](https://github.com/tatpongkatanyukul/AdventureCoding) and [exercise ideas](https://github.com/tatpongkatanyukul/Problem-Solving)
   * Week 2: Background 
     * Numerical programming
     * Intro to optimization
+      * Exercises 
   * Week 3: Supervised learning
     * Intro to supervised learning
     * Generalization
+      * Exercises 
 * **MTE** 
 * Part II  
   * Week 4: Classification
   * Week 5: Practical issues
   * Week 6: Support Vector Machine
-  * Week 7: Object detection  
+  * Week 7: Object detection
+    * Assignment 1
 * Part III
   * Week 8: Dimension reduction
   * Week 9: PCA and Eigenface
   * Week 10: Clustering and K-means
   * Week 11: Collaborative filtering
+    * Assignemnt 2 
 * Part IV
   * Week 12: Generative model I
   * Week 13: Generative model II
-  * Week 14: Reinforcement learning I
-  * Week 15: Warp up
+  * Week 14: Reinforcement learning
+  * Week 15: Problem-solving agent
+    * Assignment 3 
 * **FE**
