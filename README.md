@@ -6,6 +6,18 @@ Since I do not teach computer programming anymore, this is re-purposed to  IML c
 
 
 ---
+## 2024
+
+* To do
+  * L09: Supervised learning
+  * L10: Beyond supervised learning
+  * Pump characteristic curve
+    * https://www.ksb.com/en-global/centrifugal-pump-lexicon/article/characteristic-curve-1117926
+    * [Predictive Maintenance](https://github.com/tatpongkatanyukul/Learn/blob/main/2023/PredictiveMaintenance/pm.md)
+    * Durian production
+      * Sugar level vs rain, temperature, light, fertilizer, insect
+      * Yield (kg) vs. leaves, new leaves, fertilizer
+
 
 ## 2023
 
